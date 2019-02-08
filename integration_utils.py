@@ -9,7 +9,6 @@ from sympy import Point2D
 from sympy.geometry import Line, intersection, convex_hull
 from scipy.integrate import dblquad
 
-
 bound = 5
 
 
@@ -30,34 +29,24 @@ def find_coefficients(j, v, y):
     return res
 
 
-def coefficient_to_line(coefficient):
-    a, b, c = coefficient
-    if b == 0:
-        return Line(Point2D(- c / a, 0), Point2D(- c / a, 1))
-    else:
-        return Line(Point2D(0, - c / b), Point2D(1, (-c - a) / b))
-
-
-def find_intersections(lines):
+def find_intersections(coefficients):
     res = []
-    for i in range(len(lines)):
+    for i in range(len(coefficients)):
+        L1 = coefficients[i]
         for j in range(i):
-            if not lines[i].is_parallel(lines[j]):
-                res.append(intersection(lines[i], lines[j])[0])
-    return res
-
-
-def filter_points(points, coefficients):
-    res = set()
-    for p in points:
-        x, y = p.x, p.y
-        valid = True
-        for coefficient in coefficients:
-            a, b, c = coefficient
-            if a * x + b * y + c > 1e-8:
-                valid = False
-        if valid:
-            res.add(p)
+            L2 = coefficients[j]
+            D  = L1[0] * L2[1] - L1[1] * L2[0]
+            Dx = - L1[2] * L2[1] + L1[1] * L2[2]
+            Dy = - L1[0] * L2[2] + L1[2] * L2[0]
+            if D != 0:
+                valid = True
+                x, y = Dx / D, Dy / D
+                for a, b, c in coefficients:
+                    if a * x + b * y + c > 1e-8:
+                        valid = False
+                        break
+                if valid:
+                    res.append(Point2D(x, y))
     return res
 
 
@@ -65,23 +54,21 @@ def polygon_to_intervals(polygon):
     x_points = sorted(set(p.x for p in polygon.vertices))
     res = []
     for x in x_points:
-        vertical_line = Line(Point2D(x, 0), Point2D(x, 1))
-        inter = intersection(vertical_line, polygon)
-        if len(inter) == 2:
-            y1, y2 = sorted(set(p.y for p in inter))
-        elif isinstance(inter[0], Point2D):
-            y1, y2 = [inter[0].y, inter[0].y]
-        else:
-            y1, y2 = sorted(set(p.y for p in inter[0].points))
-        res.append((x, y1, y2))
+        tp = []
+        for side in polygon.sides:
+            x1, x2, y1, y2 = side.p1.x, side.p2.x, side.p1.y, side.p2.y
+            if x1 == x:
+                tp.append(y1)
+            elif (x - x1) * (x - x2) < 0:
+                tp.append(y1 + (y2 - y1) * (x - x1) / (x2 - x1))
+        tp.sort()
+        res.append((x, tp[0], tp[-1]))
     return res
 
 
 def gen_intervals(j, v, y):
     coefficients = find_coefficients(j, v, y)
-    lines = [coefficient_to_line(c) for c in coefficients]
-    inter_points = find_intersections(lines)
-    filtered_points = filter_points(inter_points, coefficients)
+    filtered_points = find_intersections(coefficients)
     polygon = convex_hull(*filtered_points)
     intervals = polygon_to_intervals(polygon)
     return intervals
