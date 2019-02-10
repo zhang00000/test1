@@ -9,7 +9,7 @@ from sympy import Point2D
 from sympy.geometry import Line, intersection, convex_hull
 from scipy.integrate import dblquad
 
-bound = 5
+bound = 10.0
 
 
 def find_coefficients(j, v, y):
