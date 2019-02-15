@@ -5,9 +5,9 @@ Created on Fri Feb  1 02:03:10 2019
 @author: z50
 """
 
-from sympy import Point2D
-from sympy.geometry import Line, intersection, convex_hull
+import numpy
 from scipy.integrate import dblquad
+from scipy.spatial import ConvexHull
 
 bound = 10.0
 
@@ -46,31 +46,34 @@ def find_intersections(coefficients):
                         valid = False
                         break
                 if valid:
-                    res.append(Point2D(x, y))
-    return res
-
-
-def polygon_to_intervals(polygon):
-    x_points = sorted(set(p.x for p in polygon.vertices))
-    res = []
-    for x in x_points:
-        tp = []
-        for side in polygon.sides:
-            x1, x2, y1, y2 = side.p1.x, side.p2.x, side.p1.y, side.p2.y
-            if x1 == x:
-                tp.append(y1)
-            elif (x - x1) * (x - x2) < 0:
-                tp.append(y1 + (y2 - y1) * (x - x1) / (x2 - x1))
-        tp.sort()
-        res.append((x, tp[0], tp[-1]))
-    return res
+                    res.append((x, y))
+    res1 = numpy.zeros((len(res), 2))
+    for i in range(len(res)):
+        res1[i, 0] = res[i][0]
+        res1[i, 1] = res[i][1]
+    return res1
 
 
 def gen_intervals(j, v, y):
     coefficients = find_coefficients(j, v, y)
     filtered_points = find_intersections(coefficients)
-    polygon = convex_hull(*filtered_points)
-    intervals = polygon_to_intervals(polygon)
+    if len(filtered_points) < 3:
+        return None
+    hull = ConvexHull(filtered_points)
+    x_points = sorted(set(p[0] for p in filtered_points))
+    intervals = []
+    for x in x_points:
+        tp = []
+        for i1 in range(len(hull.vertices)):
+            i2 = (i1 + 1) % len(hull.vertices)
+            x1, x2 = filtered_points[i1, 0], filtered_points[i2, 0]
+            y1, y2 = filtered_points[i1, 1], filtered_points[i2, 1]
+            if x1 == x:
+                tp.append(y1)
+            elif (x - x1) * (x - x2) < 0:
+                tp.append(y1 + (y2 - y1) * (x - x1) / (x2 - x1))
+        tp.sort()
+        intervals.append((x, tp[0], tp[-1]))
     return intervals
 
 
