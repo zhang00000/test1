@@ -49,6 +49,13 @@ def gen_y_pdf(label):
     return LowLevelCallable(lib.gy, user_data)
 
 
+def step_size(step):
+    if step < 500:
+        return 1/step
+    else:
+        return 0.002 * 0.99 ** (step - 500)
+
+
 def g_w_one_source(v, q, y, k):
     n = v.size
     w = numpy.zeros(n)
@@ -66,15 +73,15 @@ def g_w_one_source(v, q, y, k):
 
 def q_from_v(v, y):
     n, m = v.shape
-    q = numpy.zeros(v.shape)
-    for k in range(m):
-        w = g_w_one_source(v[:, k], numpy.zeros(n), y, k)[1]
-        for j in range(n):
-            q[j, k] = - w[j]
-    return q
+    res = numpy.zeros(y.shape)
+    for j in range(n):
+        for k in range(m):
+            interval = gen_intervals(j, v[:, k], y)
+            res[j, k] = integrate_over_intervals(interval, gen_pdf(k))
+    return res
 
 
-def subgradient_1(q, y, max_step, k):
+def subgradient_1(q, y, max_step, k, step_size_func=step_size):
     v = numpy.zeros(len(y))
     v_best = v
     g_best = - numpy.inf
@@ -86,7 +93,7 @@ def subgradient_1(q, y, max_step, k):
         norm = numpy.linalg.norm(w)
         if norm < 1e-8:
             break
-        alpha = 1 / step
+        alpha = step_size_func(step)
         v += alpha * w / norm
         print(step, g_best, norm)
     return g_best, v_best
@@ -110,7 +117,7 @@ def g_w_multi_source(v, y, eps=0.693147, weight=None):
     return g, w
 
 
-def subgradient_2(y, max_step, eps=0.693147, weight=None, log=False):
+def subgradient_2(y, max_step, step_size_func=step_size, eps=0.693147, weight=None, log=False):
     n = len(y)
     m = len(center)
     v = numpy.zeros((n, m))
@@ -124,7 +131,7 @@ def subgradient_2(y, max_step, eps=0.693147, weight=None, log=False):
         norm = numpy.linalg.norm(w)
         if norm < 1e-8:
             break
-        alpha = 1 / step
+        alpha = step_size_func(step)
         v += alpha * w / norm
         if log:
             print(step, g_best, norm)
@@ -149,3 +156,46 @@ def next_y_from_v(v, y, weight=None):
         res[j, 0] = integral_x.dot(weight) / integral_1.dot(weight)
         res[j, 1] = integral_y.dot(weight) / integral_1.dot(weight)
     return res
+
+
+# def g_w_multi_source_3(q, y, eps=0.693147, weight=None):
+#     n, m = q.shape
+#     if not weight:
+#         weight = numpy.ones(m)
+#     q, g = q_solver(v, weight, eps)
+#     w = numpy.zeros((n, m))
+#     for k in range(m):
+#         for j in range(n):
+#             interval = gen_intervals(j, v[:, k], y)
+#             pdf = gen_pdf(k)
+#             integral1 = integrate_over_intervals(interval, pdf)
+#             normpdf = gen_norm_pdf(k, y[j])
+#             integral2 = integrate_over_intervals(interval, normpdf)
+#             w[j, k] = weight[k] * (q[j, k] - integral1)
+#             g += weight[k] * (integral2 - v[j, k] * integral1)
+#     return g, w
+#
+#
+# def subgradient_3(y, max_step, step_size_func=step_size, eps=0.693147, weight=None, log=False):
+#     n = len(y)
+#     m = len(center)
+#     q = numpy.zeros((n, m))
+#
+#
+#     v = numpy.zeros((n, m))
+#     v_best = v
+#     g_best = - numpy.inf
+#     for step in range(1, max_step + 1):
+#         g, w = g_w_multi_source(v, y, eps, weight)
+#         if g > g_best:
+#             v_best = v
+#             g_best = g
+#         norm = numpy.linalg.norm(w)
+#         if norm < 1e-8:
+#             break
+#         alpha = step_size_func(step)
+#         v += alpha * w / norm
+#         if log:
+#             print(step, g_best, norm)
+#             print(v)
+#     return g_best, v_best

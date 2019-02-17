@@ -64,8 +64,9 @@ def gen_intervals(j, v, y):
     intervals = []
     for x in x_points:
         tp = []
-        for i1 in range(len(hull.vertices)):
-            i2 = (i1 + 1) % len(hull.vertices)
+        for i in range(len(hull.vertices)):
+            i1 = hull.vertices[i]
+            i2 = hull.vertices[(i + 1) % len(hull.vertices)]
             x1, x2 = filtered_points[i1, 0], filtered_points[i2, 0]
             y1, y2 = filtered_points[i1, 1], filtered_points[i2, 1]
             if x1 == x:
