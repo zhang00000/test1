@@ -79,6 +79,8 @@ def gen_intervals(j, v, y):
 
 
 def integrate_over_intervals(interval, func):
+    if not interval:
+        return 0.0
     quad = 0.0
     for i in range(1, len(interval)):
         x0, y0, z0 = interval[i-1]
