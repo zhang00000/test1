@@ -25,10 +25,10 @@ def dummy(eps, n):
 eps = sys.argv[1]
 n = sys.argv[2]
 
-result = str(dummy(float(eps), int(n)))
+result = str(test(float(eps), int(n)))
 filename = f'res_{n}_{eps}.txt'
 with open(filename, 'w') as fh:
-    fh.write(f'{n}\t{eps}\t{result}')
+    fh.write(f'{n}\t{eps}\t{result}\n')
 #
 # ns = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 # epsilons = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
