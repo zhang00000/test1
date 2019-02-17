@@ -9,7 +9,7 @@ import numpy
 from scipy.integrate import dblquad
 from scipy.spatial import ConvexHull
 
-bound = 10.0
+bound = 2.5
 
 
 def find_coefficients(j, v, y):
