@@ -1,0 +1,236 @@
+---
+title: "Ruoruo_test1"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+require("knitr")
+library(ggplot2)
+library(ggrepel)
+library(cowplot)
+library(plyr)
+
+#for color
+# Install
+#install.packages("wesanderson")
+# Load
+library(wesanderson)
+
+opts_knit$set(root.dir = "/Users/shan/Documents/Rourou_test/test1/")
+```
+
+
+## Figure 1
+
+lines with different n 
+input format 
+n eps(x) result(y)
+
+```{r}
+#read data (result_test.txt)
+data1 <- read.table('result/result_test.txt',header =T, na.string = 'NA')
+data1$n <- factor(data1$n)
+
+p <- ggplot(data1,aes(x=data1$x,y=data1$y,color = n)) +
+  geom_point() + 
+  geom_line() +
+  scale_x_continuous(breaks = seq(0, 1, 0.1)) +
+  scale_y_continuous(limits = c(0, 5)) + 
+  #xlab("\u03B5") + 
+  xlab(expression(epsilon)) + 
+  ylab("value") + 
+  theme(panel.border = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line = element_line(size = 0.5, linetype = "solid"),
+        panel.background = element_rect(fill = "white"))
+p
+#ggsave("Fig1_test.pdf", plot = p,  scale = 0.65, width = 8, height = 5.5, dpi = 300)
+save_plot("Fig1_test.pdf", 
+            p,
+            base_height = 5*1, 
+            base_width = 7*1)
+```
+## Figure 2
+
+<http://blog.sciencenet.cn/blog-3406804-1155528.html>
+Follow the method for PCoA analysis
+input format
+Sample group x y
+color reference <https://github.com/karthik/wesanderson>
+wes_palettes <- list(
+  BottleRocket1 = c("#A42820", "#5F5647", "#9B110E", "#3F5151", "#4E2A1E", "#550307", "#0C1707"),
+  BottleRocket2 = c("#FAD510", "#CB2314", "#273046", "#354823", "#1E1E1E"),
+  Rushmore1 = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
+  Rushmore = c("#E1BD6D", "#EABE94", "#0B775E", "#35274A" ,"#F2300F"),
+  Royal1 = c("#899DA4", "#C93312", "#FAEFD1", "#DC863B"),
+  Royal2 = c("#9A8822", "#F5CDB4", "#F8AFA8", "#FDDDA0", "#74A089"),
+  Zissou1 = c("#3B9AB2", "#78B7C5", "#EBCC2A", "#E1AF00", "#F21A00"),
+  Darjeeling1 = c("#FF0000", "#00A08A", "#F2AD00", "#F98400", "#5BBCD6"),
+  Darjeeling2 = c("#ECCBAE", "#046C9A", "#D69C4E", "#ABDDDE", "#000000"),
+  Chevalier1 = c("#446455", "#FDD262", "#D3DDDC", "#C7B19C"),
+  FantasticFox1 = c("#DD8D29", "#E2D200", "#46ACC8", "#E58601", "#B40F20"),
+  Moonrise1 = c("#F3DF6C", "#CEAB07", "#D5D5D3", "#24281A"),
+  Moonrise2 = c("#798E87", "#C27D38", "#CCC591", "#29211F"),
+  Moonrise3 = c("#85D4E3", "#F4B5BD", "#9C964A", "#CDC08C", "#FAD77B"),
+  Cavalcanti1 = c("#D8B70A", "#02401B", "#A2A475", "#81A88D", "#972D15"),
+  GrandBudapest1 = c("#F1BB7B", "#FD6467", "#5B1A18", "#D67236"),
+  GrandBudapest2 = c("#E6A0C4", "#C6CDF7", "#D8A499", "#7294D4"),
+  IsleofDogs1 = c("#9986A5", "#79402E", "#CCBA72", "#0F0D0E", "#D9D0D3", "#8D8680"),
+  IsleofDogs2 = c("#EAD3BF", "#AA9486", "#B6854D", "#39312F", "#1C1718")
+)
+
+```{r}
+##function to move the axis to custermized positions
+shift_axis <- function(p, x=0, y=0){
+  g <- ggplotGrob(p)
+  dummy <- data.frame(x=x, y=y)
+  ax <- g[["grobs"]][g$layout$name == "axis-b"][[1]]
+  bx <- g[["grobs"]][g$layout$name == "axis-l"][[1]]
+  p + annotation_custom(grid::grobTree(ax, vp = grid::viewport(y=1, height=sum(ax$height))), ymax=y, ymin=y) +
+    annotation_custom(grid::grobTree(bx, vp = grid::viewport(x=1, width=sum(bx$width))), xmax=x, xmin=x) +
+    geom_hline(aes(yintercept=y), data = dummy) +
+    geom_vline(aes(xintercept=x), data = dummy) +
+    theme(axis.line = element_blank(),
+          axis.text.x = element_blank(), 
+          axis.text.y = element_blank(),
+          axis.ticks.x= element_blank(),
+          axis.ticks.y= element_blank())
+}
+
+```
+
+```{r}
+#test for a single round 0
+
+#read data (result_test.txt)
+point <- read.table('result3/0_centroids.txt',header =T, na.string = 'NA')
+point$group <- factor(point$group)
+
+#read A group border file
+group_borderA <- read.table('result3/0_A_polygon.txt',header =T, na.string = 'NA')
+group_borderA$group <- factor(group_borderA$group)
+
+#read B group border file
+group_borderB <- read.table('result3/0_B_polygon.txt',header =T, na.string = 'NA')
+group_borderB$group <- factor(group_borderB$group)
+
+pA <- ggplot(point, aes(x,y)) +
+  geom_polygon(data=group_borderA,aes(fill = group, group = group), alpha=0.3) +
+  geom_point(aes(color = group), size = 3) + 
+  scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
+  scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+  #annotate('text', label = 'A', x = -0.3, y = 0.06, size = 5, colour = '#f8766d') +
+  #annotate('text', label = 'B', x = 0.15, y = 0.35, size = 5, colour = '#00ba38') +
+  #annotate('text', label = 'C', x = 0.26, y = -0.13, size = 5, colour = '#619cff') +
+  #xlab(expression(epsilon)) + 
+  #ylab("value") 
+  xlim(c(-2.5,2.5)) +
+  ylim(c(-2.5,2.5)) +
+  theme(legend.position="none")
+
+pA_modify <-  shift_axis(pA, 0, 0)
+#pA_modify 
+#ggsave('Fig2_A_test.pdf', pA_modify, width = 7, height = 6)
+
+pB <- ggplot(point, aes(x,y)) +
+  geom_polygon(data=group_borderB,aes(fill = group, group = group), alpha=0.3) +
+  geom_point(aes(color = group), size = 3) + 
+  scale_color_manual(values=wes_palette(n=4, name="Darjeeling1")) +
+  scale_fill_manual(values=wes_palette(n=4, name="Darjeeling1")) + 
+  #annotate('text', label = 'A', x = -0.3, y = 0.06, size = 5, colour = '#f8766d') +
+  #annotate('text', label = 'B', x = 0.15, y = 0.35, size = 5, colour = '#00ba38') +
+  #annotate('text', label = 'C', x = 0.26, y = -0.13, size = 5, colour = '#619cff') +
+  #xlab(expression(epsilon)) + 
+  #ylab("value") 
+  xlim(c(-2.5,2.5)) +
+  ylim(c(-2.5,2.5)) +
+  theme(legend.position="none")
+
+pB_modify <-  shift_axis(pB, 0, 0)
+#pB_modify 
+
+# now add the title
+title <- ggdraw() + draw_label("Plots for 0", fontface='bold')
+pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
+pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title margins
+
+pAll
+ggsave('Fig2_test.pdf', pAll, width = 6*2, height = 6)
+
+```
+```{r}
+list = seq(0,28,1)
+#list <- c(0,1,2,3,4,5,6,7,8,9,10,11,12,14,15,17,18,19,21,22,23,24,25,27,28)
+for (i in list){
+  #define input and output files
+  filePoint = paste("result3/",i,"_centroids.txt",sep='')
+  filePointNext= paste("result3/",i+1,"_centroids.txt",sep='')
+  fileA = paste("result3/",i,"_A_polygon.txt",sep='')
+  fileB = paste("result3/",i,"_B_polygon.txt",sep='')
+  ResFig = paste("Figure/Fig_",i,".png",sep='')
+  
+  #check 
+  #print(file_point)
+  #print(fileA)
+  #print(fileB)
+  #print(ResFig)
+  
+  #read center point file
+  point <- read.table(filePoint, header =T, na.string = 'NA')
+  point$group <- factor(point$group)
+  
+  #read center point file
+  poinNext <- read.table(filePointNext, header =T, na.string = 'NA')
+  poinNext$group <- factor(poinNext$group)
+
+  #read A group border file
+  group_borderA <- read.table(fileA, header =T, na.string = 'NA')
+  group_borderA$group <- factor(group_borderA$group)
+
+  #read B group border file
+  group_borderB <- read.table(fileB, header =T, na.string = 'NA')
+  group_borderB$group <- factor(group_borderB$group)
+
+  pA <- ggplot(point, aes(x,y)) +
+    geom_polygon(data=group_borderA,aes(fill = group, group = group), alpha=0.3) +
+    geom_point(aes(color = group), size = 3) + 
+    geom_point(data = poinNext, aes(x,y,color = group), size = 9, shape='+') + 
+    scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
+    scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+    xlab("") + 
+    ylab("") +
+    xlim(c(-2.5,2.5)) +
+    ylim(c(-2.5,2.5)) +
+    theme(legend.position="none")
+  pA_modify <-  shift_axis(pA, 0, 0)
+  
+  pB <- ggplot(point, aes(x,y)) +
+    geom_polygon(data=group_borderB,aes(fill = group, group = group), alpha=0.3) +
+    geom_point(aes(color = group), size = 3) + 
+    geom_point(data = poinNext, aes(x,y,color = group), size = 9, shape='+') + 
+    scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
+    scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+    xlab("") + 
+    ylab("") +
+    xlim(c(-2.5,2.5)) +
+    ylim(c(-2.5,2.5)) +
+    theme(legend.position="none")
+  pB_modify <-  shift_axis(pB, 0, 0)
+  
+  # now add the title
+  label_sample = paste("Plots for ",i,sep='') 
+  title <- ggdraw() + draw_label(label_sample, fontface='bold')
+  pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
+  pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title 
+  
+  pAll
+  ggsave(ResFig, pAll, width = 3*2, height = 3)
+}
+
+
+```
+
