@@ -234,3 +234,68 @@ for (i in list){
 
 ```
 
+#result #4
+```{r}
+list = seq(0,2,1)
+#list <- c(0,1,2)
+for (i in list){
+  #define input and output files
+  filePoint = paste("result4/",i,"_centroids.txt",sep='')
+  fileA = paste("result4/",i,"_A_polygon.txt",sep='')
+  fileB = paste("result4/",i,"_B_polygon.txt",sep='')
+  ResFig = paste("Figure4/Fig_",i,".png",sep='')
+  
+  #check 
+  #print(file_point)
+  #print(fileA)
+  #print(fileB)
+  #print(ResFig)
+  
+  #read center point file
+  point <- read.table(filePoint, header =T, na.string = 'NA')
+  point$group <- factor(point$group)
+  
+
+  #read A group border file
+  group_borderA <- read.table(fileA, header =T, na.string = 'NA')
+  group_borderA$group <- factor(group_borderA$group)
+
+  #read B group border file
+  group_borderB <- read.table(fileB, header =T, na.string = 'NA')
+  group_borderB$group <- factor(group_borderB$group)
+
+  pA <- ggplot(point, aes(x,y)) +
+    geom_polygon(data=group_borderA,aes(fill = group, group = group), alpha=0.3) +
+    geom_point(aes(color = group), size = 3) + 
+    scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
+    scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+    xlab("") + 
+    ylab("") +
+    xlim(c(-2.5,2.5)) +
+    ylim(c(-2.5,2.5)) +
+    theme(legend.position="none")
+  pA_modify <-  shift_axis(pA, 0, 0)
+  
+  pB <- ggplot(point, aes(x,y)) +
+    geom_polygon(data=group_borderB,aes(fill = group, group = group), alpha=0.3) +
+    geom_point(aes(color = group), size = 3) + 
+    scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
+    scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+    xlab("") + 
+    ylab("") +
+    xlim(c(-2.5,2.5)) +
+    ylim(c(-2.5,2.5)) +
+    theme(legend.position="none")
+  pB_modify <-  shift_axis(pB, 0, 0)
+  
+  # now add the title
+  label_sample = paste("Plots for ",i,sep='') 
+  title <- ggdraw() + draw_label(label_sample, fontface='bold')
+  pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
+  pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title 
+  
+  pAll
+  ggsave(ResFig, pAll, width = 3*2, height = 3)
+}
+```
+
