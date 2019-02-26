@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f934a3a-ae9b-4975-b739-9b5964f0415b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Fig1_test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1_test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_0.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_10.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_11.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_11.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_12.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_13.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_14.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_14.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_15.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_15.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_16.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_16.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_17.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_17.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_19.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_20.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_21.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_21.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_22.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_22.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_23.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_24.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_24.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_25.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_25.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_26.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_26.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_27.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_27.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_28.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_28.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_8.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_9.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/Fig_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_10_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/result_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result/result_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/round_1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/round_2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_3.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case_2.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test1$pytest_in_test_case_py.coverage" NAME="pytest in test_case.py Coverage Results" MODIFIED="1551082078031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$test_case_2.coverage" NAME="test_case 2 Coverage Results" MODIFIED="1551158183710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1551158151527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q_solver.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subgradient.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lloyd_max.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_case_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_case.py" />
+        <option value="$PROJECT_DIR$/integration_utils.py" />
+        <option value="$PROJECT_DIR$/test_case_2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="520" />
+    <option name="y" value="40" />
+    <option name="width" value="2800" />
+    <option name="height" value="2000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_case.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_case 2">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="wsl://UBUNTU/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case 2" type="PythonConfigurationType" factoryName="Python">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="wsl://UBUNTU/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="wsl://UBUNTU/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_case.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_case" />
+      <item itemvalue="Python.test_case 2" />
+      <item itemvalue="Python tests.pytest in test_case.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_case.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f934a3a-ae9b-4975-b739-9b5964f0415b" name="Default Changelist" comment="" />
+      <created>1551074616372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551074616372</updated>
+      <workItem from="1551074620758" duration="1419000" />
+      <workItem from="1551081826302" duration="2102000" />
+      <workItem from="1551156853649" duration="2736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_case_py - 2019.02.25 at 03h 05m 38s.xml">
+      <configuration name="pytest in test_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_case_py - 2019.02.25 at 03h 07m 40s.xml">
+      <configuration name="pytest in test_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_case_py - 2019.02.25 at 03h 07m 51s.xml">
+      <configuration name="pytest in test_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_case_py - 2019.02.25 at 03h 07m 58s.xml">
+      <configuration name="pytest in test_case.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4874000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/q_solver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subgradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lloyd_max.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

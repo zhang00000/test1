@@ -9,10 +9,8 @@ import numpy
 from scipy.integrate import dblquad
 from scipy.spatial import ConvexHull
 
-bound = 2.5
 
-
-def find_coefficients(j, v, y):
+def find_coefficients(j, v, y, bound=10):
     n = len(v)
     res = [
         (-1, 0, -bound),
