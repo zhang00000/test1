@@ -1,6 +1,6 @@
 import numpy
 from lloyd_max import lloyd_max
-from multiprocessing import Pool
+from multiprocessing import Pool, cpu_count
 from functools import partial
 
 
@@ -14,9 +14,9 @@ def find_minimal_distortion(eps, n):
 
 if __name__ == '__main__':
     epsilons = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
-    for n in range(2, 7):
+    for n in range(4, 7):
         p_func = partial(find_minimal_distortion, n=n)
-        p = Pool(6)
+        p = Pool(cpu_count())
         results = p.map(p_func, epsilons)
         for eps, result in zip(epsilons, results):
             filename = f'result/res_{n}_{eps}.txt'

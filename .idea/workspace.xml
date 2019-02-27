@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f934a3a-ae9b-4975-b739-9b5964f0415b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case1.py" beforeDir="false" afterPath="$PROJECT_DIR$/case1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,9 +17,9 @@
     <SUITE FILE_PATH="coverage/test1$pytest_in_test_case_py.coverage" NAME="pytest in test_case.py Coverage Results" MODIFIED="1551082078031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$case2.coverage" NAME="case2 Coverage Results" MODIFIED="1551252810959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$test_case_2.coverage" NAME="test_case 2 Coverage Results" MODIFIED="1551158183710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test1$subgradient.coverage" NAME="subgradient Coverage Results" MODIFIED="1551250077943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$subgradient.coverage" NAME="subgradient Coverage Results" MODIFIED="1551307727034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1551158151527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test1$case1.coverage" NAME="case1 Coverage Results" MODIFIED="1551254793757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$case1.coverage" NAME="case1 Coverage Results" MODIFIED="1551297378043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subgradient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="216">
               <caret line="134" selection-start-line="134" selection-end-line="134" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -50,11 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="32">
+              <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -62,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="-448">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -134,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.case1">
+  <component name="RunManager" selected="Python.subgradient">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,8 +243,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in case1.py" />
         <item itemvalue="Python.subgradient" />
+        <item itemvalue="Python tests.pytest in case1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +261,7 @@
       <workItem from="1551074620758" duration="1419000" />
       <workItem from="1551081826302" duration="2102000" />
       <workItem from="1551156853649" duration="5326000" />
-      <workItem from="1551243000476" duration="9338000" />
+      <workItem from="1551243000476" duration="14183000" />
     </task>
     <servers />
   </component>
@@ -287,7 +286,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16802000" />
+    <option name="totallyTimeSpent" value="21647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,23 +338,6 @@
     <entry file="file://$PROJECT_DIR$/q_solver.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lloyd_max.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subgradient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integration_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-344">
@@ -365,21 +347,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="-448">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case1.py">
+    <entry file="file://$PROJECT_DIR$/lloyd_max.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="96">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subgradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
