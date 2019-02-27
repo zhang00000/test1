@@ -90,8 +90,9 @@ shift_axis <- function(p, x=0, y=0){
   dummy <- data.frame(x=x, y=y)
   ax <- g[["grobs"]][g$layout$name == "axis-b"][[1]]
   bx <- g[["grobs"]][g$layout$name == "axis-l"][[1]]
-  p + annotation_custom(grid::grobTree(ax, vp = grid::viewport(y=1, height=sum(ax$height))), ymax=y, ymin=y) +
-    annotation_custom(grid::grobTree(bx, vp = grid::viewport(x=1, width=sum(bx$width))), xmax=x, xmin=x) +
+  p + 
+    #annotation_custom(grid::grobTree(ax, vp = grid::viewport(y=1, height=sum(ax$height))), ymax=y, ymin=y) +
+    #annotation_custom(grid::grobTree(bx, vp = grid::viewport(x=1, width=sum(bx$width))), xmax=x, xmin=x) +
     geom_hline(aes(yintercept=y), data = dummy) +
     geom_vline(aes(xintercept=x), data = dummy) +
     theme(axis.line = element_blank(),
@@ -270,6 +271,7 @@ for (i in list){
     geom_point(aes(color = group), size = 3) + 
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+    geom_text_repel(aes(label = point$label), size=4.5) + 
     xlab("") + 
     ylab("") +
     xlim(c(-2.5,2.5)) +
@@ -282,6 +284,7 @@ for (i in list){
     geom_point(aes(color = group), size = 3) + 
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
+    #geom_text_repel(aes(label = point$label2),size=4.5) + 
     xlab("") + 
     ylab("") +
     xlim(c(-2.5,2.5)) +
