@@ -2,79 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f934a3a-ae9b-4975-b739-9b5964f0415b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fig1_test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1_test.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_0.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_0.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_10.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_11.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_11.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_12.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_12.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_13.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_14.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_14.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_15.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_15.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_16.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_16.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_17.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_17.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_18.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_19.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_19.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_20.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_20.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_21.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_21.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_22.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_22.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_23.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_24.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_24.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_25.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_25.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_26.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_26.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_27.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_27.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_28.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_28.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_5.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_6.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_7.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_8.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/Fig_9.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/Fig_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/integration_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_1.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_2.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_10_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result/result_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/round_1.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/round_2.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_1.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_2.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_3.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure4/Fig_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure4/Fig_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure4/Fig_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/0_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/0_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/0_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/1_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/1_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/1_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/1_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/1_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/1_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/2_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/2_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/2_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_centroids.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="896">
+              <caret line="56" column="7" selection-start-line="54" selection-end-line="69" selection-end-column="55" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -306,7 +247,7 @@
       <updated>1551074616372</updated>
       <workItem from="1551074620758" duration="1419000" />
       <workItem from="1551081826302" duration="2102000" />
-      <workItem from="1551156853649" duration="2736000" />
+      <workItem from="1551156853649" duration="5326000" />
     </task>
     <servers />
   </component>
@@ -325,11 +266,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4874000" />
+    <option name="totallyTimeSpent" value="7464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -350,7 +290,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.3296" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -392,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="896">
+          <caret line="56" column="7" selection-start-line="54" selection-end-line="69" selection-end-column="55" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
