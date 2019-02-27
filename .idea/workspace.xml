@@ -7,6 +7,86 @@
       <change beforePath="$PROJECT_DIR$/Figure4/Fig_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Figure4/Fig_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Figure4/Fig_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure4/Fig_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure4/Fig_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lloyd_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/lloyd_max.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/master2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_2_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_3_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_4_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_5_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_6_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_7_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_7_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_7_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_7_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_8_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_8_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_8_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_8_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_8_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_8_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/res_9_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/result_test.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/result4/0_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result4/0_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result4/0_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_centroids.txt" afterDir="false" />
@@ -16,7 +96,15 @@
       <change beforePath="$PROJECT_DIR$/result4/2_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result4/2_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result4/2_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_centroids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/3_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/3_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/3_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/3_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/3_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/3_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/4_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/4_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/4_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/4_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result4/4_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/4_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subgradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/subgradient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/case2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +113,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test1$pytest_in_case1_py.coverage" NAME="pytest in case1.py Coverage Results" MODIFIED="1551253308209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$pytest_in_test_case_py.coverage" NAME="pytest in test_case.py Coverage Results" MODIFIED="1551082078031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$case2.coverage" NAME="case2 Coverage Results" MODIFIED="1551252810959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$test_case_2.coverage" NAME="test_case 2 Coverage Results" MODIFIED="1551158183710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$subgradient.coverage" NAME="subgradient Coverage Results" MODIFIED="1551250077943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1551158151527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$case1.coverage" NAME="case1 Coverage Results" MODIFIED="1551253381512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -39,7 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subgradient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="424">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -49,14 +142,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lloyd_max.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/case1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+            <state relative-caret-position="384">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -64,23 +161,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case_2.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="56" column="7" selection-start-line="54" selection-end-line="69" selection-end-column="55" />
+            <state relative-caret-position="368">
+              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integration_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,6 +184,10 @@
         <option value="$PROJECT_DIR$/test_case.py" />
         <option value="$PROJECT_DIR$/integration_utils.py" />
         <option value="$PROJECT_DIR$/test_case_2.py" />
+        <option value="$PROJECT_DIR$/lloyd_max.py" />
+        <option value="$PROJECT_DIR$/subgradient.py" />
+        <option value="$PROJECT_DIR$/case2.py" />
+        <option value="$PROJECT_DIR$/case1.py" />
       </list>
     </option>
   </component>
@@ -144,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_case 2">
+  <component name="RunManager" selected="Python.case1">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,26 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_case 2" type="PythonConfigurationType" factoryName="Python">
-      <module name="test1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="wsl://UBUNTU/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_case" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="case1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +272,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +281,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_case.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="case2" type="PythonConfigurationType" factoryName="Python">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="wsl://UBUNTU/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subgradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="wsl://UBUNTU/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/subgradient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in case1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,18 +334,20 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_case" />
-      <item itemvalue="Python.test_case 2" />
-      <item itemvalue="Python tests.pytest in test_case.py" />
+      <item itemvalue="Python.case1" />
+      <item itemvalue="Python.case2" />
+      <item itemvalue="Python.subgradient" />
+      <item itemvalue="Python tests.pytest in case1.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_case.py" />
+        <item itemvalue="Python tests.pytest in case1.py" />
+        <item itemvalue="Python.subgradient" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +364,7 @@
       <workItem from="1551074620758" duration="1419000" />
       <workItem from="1551081826302" duration="2102000" />
       <workItem from="1551156853649" duration="5326000" />
+      <workItem from="1551243000476" duration="9029000" />
     </task>
     <servers />
   </component>
@@ -264,29 +381,45 @@
     <history-entry file="pytest_in_test_case_py - 2019.02.25 at 03h 07m 58s.xml">
       <configuration name="pytest in test_case.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_case1_py - 2019.02.27 at 02h 27m 38s.xml">
+      <configuration name="pytest in case1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_case1_py - 2019.02.27 at 02h 41m 48s.xml">
+      <configuration name="pytest in case1.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7464000" />
+    <option name="totallyTimeSpent" value="16493000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17973334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -298,13 +431,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/master2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/q_solver.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case.py">
+    <entry file="file://$PROJECT_DIR$/lloyd_max.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        <state relative-caret-position="96">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subgradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -313,29 +460,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/integration_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="-344">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subgradient.py">
+    <entry file="file://$PROJECT_DIR$/case2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="368">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lloyd_max.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case_2.py">
+    <entry file="file://$PROJECT_DIR$/case1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="56" column="7" selection-start-line="54" selection-end-line="69" selection-end-column="55" />
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
