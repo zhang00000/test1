@@ -19,6 +19,6 @@ if __name__ == '__main__':
         p = Pool(6)
         results = p.map(p_func, epsilons)
         for eps, result in zip(epsilons, results):
-            filename = f'res_{n}_{eps}.txt'
+            filename = f'result/res_{n}_{eps}.txt'
             with open(filename, 'w') as fh:
                 fh.write(f'{n}\t{eps}\t{result}\n')

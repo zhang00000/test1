@@ -2,109 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f934a3a-ae9b-4975-b739-9b5964f0415b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig1_test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1_test.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure4/Fig_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure4/Fig_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure4/Fig_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure4/Fig_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure4/Fig_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Figure4/Fig_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lloyd_max.py" beforeDir="false" afterPath="$PROJECT_DIR$/lloyd_max.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/master2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_2_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_3_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_4_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_5_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_6_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_7_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_7_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_7_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_7_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_8_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_8_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_8_0.5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_8_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_8_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_8_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/res_9_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/result_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/0_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_A_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/0_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_B_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/0_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/0_centroids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/1_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/1_A_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/1_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/1_B_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/1_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/1_centroids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/2_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_A_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/2_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_B_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/2_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/2_centroids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/3_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/3_A_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/3_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/3_B_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/3_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/3_centroids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/4_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/4_A_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/4_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/4_B_polygon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4/4_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result4/4_centroids.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subgradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/subgradient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/case2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case1.py" beforeDir="false" afterPath="$PROJECT_DIR$/case1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +17,7 @@
     <SUITE FILE_PATH="coverage/test1$test_case_2.coverage" NAME="test_case 2 Coverage Results" MODIFIED="1551158183710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$subgradient.coverage" NAME="subgradient Coverage Results" MODIFIED="1551250077943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1551158151527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test1$case1.coverage" NAME="case1 Coverage Results" MODIFIED="1551253381512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$case1.coverage" NAME="case1 Coverage Results" MODIFIED="1551254793757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -364,7 +262,7 @@
       <workItem from="1551074620758" duration="1419000" />
       <workItem from="1551081826302" duration="2102000" />
       <workItem from="1551156853649" duration="5326000" />
-      <workItem from="1551243000476" duration="9029000" />
+      <workItem from="1551243000476" duration="9338000" />
     </task>
     <servers />
   </component>
@@ -389,7 +287,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16493000" />
+    <option name="totallyTimeSpent" value="16802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
