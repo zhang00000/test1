@@ -206,7 +206,7 @@ for (i in list){
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) + 
     xlab("") + 
-    ylab("") +
+    ylab("Source 1") +
     xlim(c(-2.5,2.5)) +
     ylim(c(-2.5,2.5)) +
     theme(legend.position="none")
@@ -219,7 +219,7 @@ for (i in list){
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) + 
     xlab("") + 
-    ylab("") +
+    ylab("Source 2") +
     xlim(c(-2.5,2.5)) +
     ylim(c(-2.5,2.5)) +
     theme(legend.position="none")
@@ -228,7 +228,7 @@ for (i in list){
   # now add the title
   label_sample = paste("Iteration ",i,sep='') 
   title <- ggdraw() + draw_label(label_sample, fontface='bold')
-  pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
+  pAll <- plot_grid(pA_modify, pB_modify, ncol = 2)
   pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title 
   
   pAll
