@@ -51,8 +51,8 @@ p
 #ggsave("Fig1_test.pdf", plot = p,  scale = 0.65, width = 8, height = 5.5, dpi = 300)
 save_plot("Fig1_test.pdf", 
             p,
-            base_height = 5*1, 
-            base_width = 7*1)
+            base_height = 3.5*1, 
+            base_width = 5*1)
 ```
 ## Figure 2
 
@@ -275,7 +275,7 @@ for (i in list){
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
     geom_text_repel(aes(label = point$pa), size=4.5) + 
     xlab("") + 
-    ylab("") +
+    ylab("Source 1") +
     xlim(c(-2.5,2.5)) +
     ylim(c(-2.5,2.5)) +
     theme(legend.position="none")
@@ -288,16 +288,16 @@ for (i in list){
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
     geom_text_repel(aes(label = point$pb),size=4.5) + 
     xlab("") + 
-    ylab("") +
+    ylab("Source 2") +
     xlim(c(-2.5,2.5)) +
     ylim(c(-2.5,2.5)) +
     theme(legend.position="none")
   pB_modify <-  shift_axis(pB, 0, 0)
   
   # now add the title
-  label_sample = paste(expression(epsilon),list2[i+1],sep='=') 
+  label_sample = paste(bquote(epsilon),list2[i+1],sep='=')
   title <- ggdraw() + draw_label(label_sample, fontface='bold')
-  pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
+  pAll <- plot_grid(pA_modify, pB_modify, ncol = 2)
   pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title 
   
   pAll
