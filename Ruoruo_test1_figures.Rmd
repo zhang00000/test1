@@ -31,7 +31,7 @@ n eps(x) result(y)
 
 ```{r}
 #read data (result_test.txt)
-data1 <- read.table('result/result_test.txt',header =T, na.string = 'NA')
+data1 <- read.table('result/good.txt',header =T, na.string = 'NA')
 data1$n <- factor(data1$n)
 
 p <- ggplot(data1,aes(x=data1$x,y=data1$y,color = n)) +
@@ -41,7 +41,7 @@ p <- ggplot(data1,aes(x=data1$x,y=data1$y,color = n)) +
   scale_y_continuous(limits = c(0, 5)) + 
   #xlab("\u03B5") + 
   xlab(expression(epsilon)) + 
-  ylab("value") + 
+  ylab("Minimal Distortion") + 
   theme(panel.border = element_blank(),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -175,7 +175,7 @@ for (i in list){
   filePointNext= paste("result3/",i+1,"_centroids.txt",sep='')
   fileA = paste("result3/",i,"_A_polygon.txt",sep='')
   fileB = paste("result3/",i,"_B_polygon.txt",sep='')
-  ResFig = paste("Figure3/Fig_",i,".png",sep='')
+  ResFig = paste("Figure3/Fig_",i,".pdf",sep='')
   
   #check 
   #print(file_point)
@@ -202,7 +202,7 @@ for (i in list){
   pA <- ggplot(point, aes(x,y)) +
     geom_polygon(data=group_borderA,aes(fill = group, group = group), alpha=0.3) +
     geom_point(aes(color = group), size = 3) + 
-    geom_point(data = poinNext, aes(x,y,color = group), size = 9, shape='+') + 
+    geom_point(data = poinNext, aes(x,y,color = group), size = 2.5, shape=3, stroke=2) + 
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) + 
     xlab("") + 
@@ -215,7 +215,7 @@ for (i in list){
   pB <- ggplot(point, aes(x,y)) +
     geom_polygon(data=group_borderB,aes(fill = group, group = group), alpha=0.3) +
     geom_point(aes(color = group), size = 3) + 
-    geom_point(data = poinNext, aes(x,y,color = group), size = 9, shape='+') + 
+    geom_point(data = poinNext, aes(x,y,color = group), size = 2.5, shape=3, stroke=2) + 
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00','#9986A5','#C27D38')) + 
     xlab("") + 
@@ -226,7 +226,7 @@ for (i in list){
   pB_modify <-  shift_axis(pB, 0, 0)
   
   # now add the title
-  label_sample = paste("Plots for ",i,sep='') 
+  label_sample = paste("Iteration ",i,sep='') 
   title <- ggdraw() + draw_label(label_sample, fontface='bold')
   pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
   pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title 
@@ -240,15 +240,14 @@ for (i in list){
 
 #result #4
 ```{r}
-list = seq(0,2,1)
-list2 <- c(0,0.1,2)
-#list <- c(0,1,2)
+list = seq(0,4,1)
+list2 <- c(0, 0.2, 0.4, 0.6, 1, 2)
 for (i in list){
   #define input and output files
   filePoint = paste("result4/",i,"_centroids.txt",sep='')
   fileA = paste("result4/",i,"_A_polygon.txt",sep='')
   fileB = paste("result4/",i,"_B_polygon.txt",sep='')
-  ResFig = paste("Figure4/Fig_",i,".png",sep='')
+  ResFig = paste("Figure4/Fig_",i,".pdf",sep='')
   
   #check 
   #print(file_point)
@@ -274,7 +273,7 @@ for (i in list){
     geom_point(aes(color = group), size = 3) + 
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
-    geom_text_repel(aes(label = point$label), size=4.5) + 
+    geom_text_repel(aes(label = point$pa), size=4.5) + 
     xlab("") + 
     ylab("") +
     xlim(c(-2.5,2.5)) +
@@ -287,7 +286,7 @@ for (i in list){
     geom_point(aes(color = group), size = 3) + 
     scale_color_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) +
     scale_fill_manual(values=c('#FF0000', '#00A08A', '#5BBCD6', '#F2AD00')) + 
-    #geom_text_repel(aes(label = point$label2),size=4.5) + 
+    geom_text_repel(aes(label = point$pb),size=4.5) + 
     xlab("") + 
     ylab("") +
     xlim(c(-2.5,2.5)) +
@@ -296,7 +295,7 @@ for (i in list){
   pB_modify <-  shift_axis(pB, 0, 0)
   
   # now add the title
-  label_sample = paste("Plots for ",list2[i+1],sep='') 
+  label_sample = paste(expression(epsilon),list2[i+1],sep='=') 
   title <- ggdraw() + draw_label(label_sample, fontface='bold')
   pAll <- plot_grid(pA_modify, pB_modify, labels = c("A","B"), ncol = 2)
   pAll <- plot_grid(title, pAll, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title 

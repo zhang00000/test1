@@ -2,23 +2,308 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f934a3a-ae9b-4975-b739-9b5964f0415b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig1_test.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1_test.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ruoruo_test1_figures.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/Ruoruo_test1_figures.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case3.py" beforeDir="false" afterPath="$PROJECT_DIR$/case3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/0_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/0_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/0_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/0_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/0_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/0_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/10_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/10_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/10_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/10_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/10_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/10_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/11_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/11_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/11_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/11_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/11_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/11_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/12_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/12_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/12_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/12_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/12_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/12_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/13_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/13_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/13_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/13_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/13_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/13_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/14_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/14_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/14_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/14_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/14_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/14_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/15_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/15_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/15_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/15_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/15_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/15_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/16_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/16_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/16_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/16_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/16_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/16_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/17_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/17_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/17_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/17_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/17_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/17_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/18_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/18_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/18_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/18_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/18_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/18_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/19_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/19_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/19_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/19_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/19_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/19_centroids.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/1_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/1_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/1_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/1_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/1_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/1_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/20_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/20_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/20_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/20_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/20_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/20_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/21_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/21_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/21_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/21_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/21_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/21_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/22_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/22_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/22_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/22_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/22_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/22_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/23_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/23_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/23_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/23_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/23_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/23_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/24_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/24_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/24_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/24_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/24_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/24_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/25_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/25_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/25_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/25_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/25_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/25_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/26_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/26_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/26_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/26_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/26_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/26_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/27_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/27_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/27_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/27_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/27_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/27_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/28_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/28_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/28_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/28_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/28_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/28_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/29_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/29_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/29_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/29_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/29_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/29_centroids.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/2_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/2_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/2_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/2_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/2_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/2_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/30_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/30_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/30_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/30_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/30_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/30_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/31_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/31_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/31_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/31_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/31_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/31_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/32_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/32_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/32_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/32_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/32_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/32_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/33_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/33_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/33_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/33_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/33_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/33_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/34_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/34_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/34_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/34_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/34_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/34_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/35_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/35_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/35_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/35_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/35_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/35_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/36_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/36_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/36_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/36_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/36_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/36_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/37_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/37_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/37_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/37_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/37_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/37_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/38_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/38_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/38_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/38_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/38_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/38_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/39_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/39_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/39_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/39_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/39_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/39_centroids.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/3_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/3_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/3_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/3_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/3_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/3_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/40_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/40_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/40_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/40_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/40_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/40_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/41_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/41_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/41_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/41_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/41_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/41_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/42_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/42_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/42_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/42_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/42_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/42_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/43_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/43_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/43_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/43_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/43_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/43_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/44_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/44_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/44_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/44_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/44_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/44_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/45_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/45_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/45_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/45_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/45_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/45_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/46_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/46_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/46_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/46_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/46_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/46_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/47_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/47_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/47_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/47_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/47_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/47_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/48_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/48_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/48_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/48_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/48_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/48_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/49_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/49_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/49_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/49_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/49_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/49_centroids.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/4_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/4_A_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/4_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/4_B_polygon.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result3/4_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/4_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/50_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/50_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/50_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/50_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/50_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/50_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/51_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/51_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/51_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/51_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/51_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/51_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/52_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/52_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/52_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/52_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/52_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/52_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/53_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/53_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/53_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/53_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/53_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/53_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/54_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/54_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/54_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/54_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/54_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/54_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/55_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/55_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/55_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/55_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/55_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/55_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/56_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/56_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/56_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/56_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/56_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/56_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/57_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/57_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/57_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/57_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/57_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/57_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/58_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/58_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/58_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/58_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/58_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/58_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/59_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/59_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/59_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/59_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/59_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/59_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/5_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/5_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/5_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/5_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/5_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/5_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/60_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/60_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/60_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/60_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/60_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/60_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/61_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/61_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/61_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/61_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/61_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/61_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/62_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/62_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/62_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/62_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/62_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/62_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/63_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/63_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/63_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/63_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/63_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/63_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/64_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/64_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/64_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/64_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/64_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/64_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/65_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/65_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/65_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/65_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/65_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/65_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/66_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/66_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/66_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/66_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/66_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/66_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/67_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/67_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/67_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/67_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/67_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/67_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/68_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/68_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/68_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/68_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/68_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/68_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/69_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/69_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/69_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/69_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/69_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/69_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/6_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/6_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/6_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/6_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/6_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/6_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/70_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/70_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/70_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/70_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/70_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/70_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/71_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/71_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/71_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/71_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/71_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/71_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/72_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/72_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/72_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/72_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/72_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/72_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/73_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/73_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/73_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/73_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/73_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/73_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/74_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/74_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/74_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/74_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/74_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/74_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/75_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/75_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/75_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/75_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/75_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/75_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/76_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/76_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/76_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/76_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/76_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/76_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/77_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/77_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/77_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/77_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/77_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/77_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/78_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/78_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/78_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/78_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/78_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/78_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/79_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/79_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/79_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/79_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/79_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/79_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/7_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/7_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/7_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/7_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/7_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/7_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/80_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/80_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/80_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/80_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/80_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/80_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/81_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/81_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/81_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/81_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/81_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/81_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/82_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/82_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/82_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/82_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/82_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/82_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/83_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/83_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/83_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/83_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/83_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/83_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/84_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/84_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/84_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/84_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/84_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/84_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/85_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/85_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/85_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/85_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/85_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/85_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/86_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/86_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/86_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/86_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/86_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/86_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/87_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/87_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/87_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/87_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/87_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/87_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/88_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/88_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/88_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/88_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/88_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/88_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/89_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/89_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/89_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/89_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/89_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/89_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/8_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/8_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/8_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/8_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/8_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/8_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/90_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/90_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/90_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/90_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/90_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/90_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/91_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/91_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/91_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/91_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/91_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/91_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/92_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/92_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/92_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/92_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/92_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/92_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/93_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/93_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/93_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/93_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/93_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/93_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/94_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/94_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/94_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/94_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/94_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/94_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/95_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/95_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/95_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/95_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/95_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/95_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/96_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/96_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/96_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/96_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/96_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/96_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/97_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/97_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/97_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/97_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/97_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/97_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/98_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/98_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/98_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/98_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/98_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/98_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/99_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/99_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/99_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/99_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/99_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/99_centroids.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/9_A_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/9_A_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/9_B_polygon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/9_B_polygon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result3/9_centroids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result3/9_centroids.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +370,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            <state relative-caret-position="704">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -229,6 +514,9 @@
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -285,8 +573,8 @@
     <list>
       <item itemvalue="Python.case1" />
       <item itemvalue="Python.case2" />
-      <item itemvalue="Python.subgradient" />
       <item itemvalue="Python.case3" />
+      <item itemvalue="Python.subgradient" />
       <item itemvalue="Python tests.pytest in case1.py" />
     </list>
     <recent_temporary>
@@ -336,7 +624,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29968000" />
+    <option name="totallyTimeSpent" value="29974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,9 +637,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18133333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18133333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,9 +651,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002667" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49973333" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4992" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        <state relative-caret-position="704">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

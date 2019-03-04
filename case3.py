@@ -33,7 +33,7 @@ def gen_polygon(j, k, v, y):
 with shelve.open('spam') as fh:
     optimal = fh['optimal']
 
-case = 0
+case = 3
 
 for i in range(100):
     v1 = optimal[case][3][i][2]
